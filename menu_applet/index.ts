@@ -1,0 +1,65 @@
+//Copyright (C) 2026 by Theron Kauk and John Morris Beck <hd.configure.direct@gmail.com> THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIE WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILIT AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+import path from 'path';
+import os from 'os';
+import { pathToFileURL } from 'url';
+(async () => {
+    const configPath = path.join(
+	os.homedir(),
+	'.config',
+	'hdconfigure',
+	'tools',
+	'git',
+	'hdconfigure',
+	'hdconfigure_webapps',
+	'hdconfigure_webapps_build_page.ts'
+    );
+    const configUrl = pathToFileURL(configPath).href;
+    const hdui = await import(configUrl);
+    const result = hdui.generate_html_page(
+
+
+
+
+
+
+
+
+
+
+
+
+	     "/style.css",
+        "Example",
+        "../",
+        "header",
+        "small script",
+
+
+
+
+
+
+
+	hdui.subheader("This is a subheader!") +
+	    hdui.image("https://en.wikipedia.org/wiki/Apple#/media/File:Pink_lady_and_cross_section.jpg") +
+	    hdui.text(
+		"This is some text") +
+	    hdui.button("https://www.google.com/", "This is a buton")
+
+    );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    console.log(result);
+})().catch(console.error);

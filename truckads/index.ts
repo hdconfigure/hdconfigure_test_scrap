@@ -1,0 +1,73 @@
+//Copyright (C) 2026 by Theron Kauk and John Morris Beck <hd.configure.direct@gmail.com> THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIE WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILIT AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+import path from 'path';
+import os from 'os';
+import { pathToFileURL } from 'url';
+(async () => {
+    const configPath = path.join(
+	os.homedir(),
+	'.config',
+	'hdconfigure',
+	'tools',
+	'git',
+	'hdconfigure',
+	'hdconfigure_webapps',
+	'hdconfigure_webapps_build_page.ts'
+    );
+    const configUrl = pathToFileURL(configPath).href;
+    const hdui = await import(configUrl);
+    const result = hdui.generate_html_page(
+
+
+
+
+
+
+
+
+
+
+
+
+	     "/style.css",
+        "TruckAds",
+        "./menu/",
+        "Truck Ads",
+        "by HD Configure",
+
+
+
+
+
+
+
+	hdui.subheader("You can get ads on trucks?") +
+	    hdui.image("/assets/truckday.jpg") +
+	    hdui.text(
+		"Put your ad on a moving truck across america, or register your truck for adspace and get paid. Why would you pay for an ad in just one place that doesnt move? Why would you drive truck and waste extra money you could be making?") +
+	    hdui.button("/truckads/register/", "Register Truck Ad") +
+	    hdui.image("/assets/truckrear.jpg") +
+			    
+	    hdui.image("/assets/trucknight.jpg") +
+	    hdui.text("If you want to advertise almost anything your ads can reach across the nation by putting them on longhaul trucks. For trucking companies and owner operators you are wasting precious ad revinue that you could be making with us. Register today and sign up to be served an advertising partner. For trucking companies and owners operators it is free to sign up.")
+
+
+
+	    
+
+    );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    console.log(result);
+})().catch(console.error);
