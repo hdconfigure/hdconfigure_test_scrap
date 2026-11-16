@@ -43,7 +43,7 @@ import { pathToFileURL } from 'url';
 	hdui.subheader("Book a Truck Ad") +
 	    hdui.image("/assets/truckday.jpg") +
 	    hdui.subheader("Email: hd.configure.direct@gmail.com") +
-	    hudi.button("mailto:hd.configure.direct@gmail.com", "Open Mail App") +
+	    hdui.button("mailto:hd.configure.direct@gmail.com", "Open Mail App") +
 	    hdui.text("To register with us send us your name, the company you work with, and whether you are a truck for rent.") +
 	    hdui.text("If you are an advertiser let us know: how long do you want the ads for, how many trucks are you looking to put ads on, do you have pictures of what kind of ad you want, etcetera etcetera.") +
 	    hdui.text("If you are a driver, let us know the type of truck you have, how often you drive, and what states you most frequently drive in.")
