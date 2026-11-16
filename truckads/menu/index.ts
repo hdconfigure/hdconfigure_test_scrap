@@ -40,9 +40,9 @@ import { pathToFileURL } from 'url';
 
 
 
-	    hdui.button("/home/", "This is a buton") +
-	    hdui.button("/truckads/", "This is a buton") +
-	    hdui.button("/register/", "This is a buton")
+	    hdui.button("/home/", "Home") +
+	    hdui.button("/truckads/", "Truck Ads") +
+	    hdui.button("/register/", "Register")
 
 
     );
