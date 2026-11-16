@@ -29,10 +29,10 @@ import { pathToFileURL } from 'url';
 
 
 	     "/style.css",
-        "Example",
+        "TruckAds",
         "../",
-        "header",
-        "small script",
+        "Truck Ads Menu",
+        " ",
 
 
 
@@ -40,11 +40,10 @@ import { pathToFileURL } from 'url';
 
 
 
-	hdui.subheader("This is a subheader!") +
-	    hdui.image("https://en.wikipedia.org/wiki/Apple#/media/File:Pink_lady_and_cross_section.jpg") +
-	    hdui.text(
-		"This is some text") +
-	    hdui.button("https://www.google.com/", "This is a buton")
+	    hdui.button("/home/", "This is a buton") +
+	    hdui.button("/truckads/", "This is a buton") +
+	    hdui.button("/register/", "This is a buton")
+
 
     );
 

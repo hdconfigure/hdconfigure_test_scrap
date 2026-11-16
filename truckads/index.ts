@@ -41,13 +41,13 @@ import { pathToFileURL } from 'url';
 
 
 	hdui.subheader("You can get ads on trucks?") +
-	    hdui.image("/assets/truckday.jpg") +
+	    hdui.image("/assets/truckday.png") +
 	    hdui.text(
 		"Put your ad on a moving truck across america, or register your truck for adspace and get paid. Why would you pay for an ad in just one place that doesnt move? Why would you drive truck and waste extra money you could be making?") +
 	    hdui.button("/truckads/register/", "Register Truck Ad") +
 	    hdui.image("/assets/truckrear.jpg") +
 			    
-	    hdui.image("/assets/trucknight.jpg") +
+	    hdui.image("/assets/trucknight.png") +
 	    hdui.text("If you want to advertise almost anything your ads can reach across the nation by putting them on longhaul trucks. For trucking companies and owner operators you are wasting precious ad revinue that you could be making with us. Register today and sign up to be served an advertising partner. For trucking companies and owners operators it is free to sign up.")
 
 
