@@ -29,7 +29,7 @@ import { pathToFileURL } from 'url';
 
 
 	     "/style.css",
-        "Example",
+        "HDConfigure",
         "./menu/",
         "HD Configure",
         " ",
