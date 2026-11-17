@@ -40,11 +40,16 @@ import { pathToFileURL } from 'url';
 
 
 
-	hdui.subheader("Get Ads On A Truck") +
+	hdui.subheader("Advertise On A Truck") +
 	    hdui.image("/assets/truckday.png") +
+	    hdui.subheader("1-(401)-400-2279") +
+	    hdui.subheader("hd.configure.direct@gmail.com") +
 	    hdui.text(
 		"Put your ad on a moving truck across america, or register your truck for adspace and get paid. Why would you pay for an ad in just one place that doesnt move? Why would you drive truck and waste extra money you could be making?") +
-	    hdui.button("/truckads/", "Truck Ads")
+	    hdui.image("/assets/truckback.jpg") +
+			    
+	    hdui.image("/assets/trucknight.png") +
+	    hdui.text("If you want to advertise almost anything your ads can reach across the nation by putting them on longhaul trucks. For trucking companies and owner operators you are wasting precious ad revinue that you could be making with us. Register today and sign up to be served an advertising partner. For trucking companies and owners operators it is free to sign up.")
 
     );
 

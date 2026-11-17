@@ -39,8 +39,6 @@ import { pathToFileURL } from 'url';
 
 
 
-
-	    hdui.button("/home/", "Home") +
 	    hdui.button("/truckads/", "Truck Ads") +
 	    hdui.button("/register/", "Register")
 
