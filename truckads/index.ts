@@ -29,10 +29,10 @@ import { pathToFileURL } from 'url';
 
 
 	     "/style.css",
-        "TruckAds",
+        "HDConfigure",
         "./menu/",
-        "Truck Ads",
-        "by HD Configure",
+        "HD Configure",
+        " ",
 
 
 
@@ -40,19 +40,16 @@ import { pathToFileURL } from 'url';
 
 
 
-	hdui.subheader("You can get ads on trucks?") +
+	hdui.subheader("Advertise On A Truck") +
 	    hdui.image("/assets/truckday.png") +
+	    hdui.subheader("1-(401)-400-2279") +
+	    hdui.subheader("hd.configure.direct@gmail.com") +
 	    hdui.text(
 		"Put your ad on a moving truck across america, or register your truck for adspace and get paid. Why would you pay for an ad in just one place that doesnt move? Why would you drive truck and waste extra money you could be making?") +
-	    hdui.button("/truckads/register/", "Register Truck Ad") +
 	    hdui.image("/assets/truckback.jpg") +
 			    
 	    hdui.image("/assets/trucknight.png") +
 	    hdui.text("If you want to advertise almost anything your ads can reach across the nation by putting them on longhaul trucks. For trucking companies and owner operators you are wasting precious ad revinue that you could be making with us. Register today and sign up to be served an advertising partner. For trucking companies and owners operators it is free to sign up.")
-
-
-
-	    
 
     );
 
@@ -71,3 +68,4 @@ import { pathToFileURL } from 'url';
 
     console.log(result);
 })().catch(console.error);
+
