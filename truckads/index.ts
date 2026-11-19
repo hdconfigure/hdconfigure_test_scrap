@@ -45,11 +45,20 @@ import { pathToFileURL } from 'url';
 	    hdui.subheader("1-(401)-400-2279") +
 	    hdui.subheader("hd.configure.direct@gmail.com") +
 	    hdui.text(
-		"Put your ad on a moving truck across america, or register your truck for adspace and get paid. Why would you pay for an ad in just one place that doesnt move? Why would you drive truck and waste extra money you could be making?") +
+		"Put your advertisement on a moving truck across america, or register your truck for adspace and get paid. Why would you pay for an advertisement in just one place that doesnt move? Why would you drive truck and waste extra money you could be making?") +
 	    hdui.image("/assets/truckback.jpg") +
 			    
 	    hdui.image("/assets/trucknight.png") +
-	    hdui.text("If you want to advertise almost anything your ads can reach across the nation by putting them on longhaul trucks. For trucking companies and owner operators you are wasting precious ad revinue that you could be making with us. Register today and sign up to be served an advertising partner. For trucking companies and owners operators it is free to sign up.")
+	    hdui.text("If you want to advertise almost anything your advertisements can reach across the nation by putting them on longhaul trucks. For trucking companies and owner operators you are wasting precious avertisement revinue that you could be making with us. Register today and sign up to be served an advertising partner. For trucking companies and owners operators it is free to sign up.") + `
+
+
+<center>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevLIcajLnalSh20vIcnGZ2dDFG4Ue2tJ0UCPxEjrYCR0SUiQ/viewform?embedded=true" width="640" height="943" frameborder="0" marginheight="0" marginwidth="0">Loading.</iframe></center>
+
+
+
+`
+
 
     );
 
