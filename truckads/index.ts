@@ -1,4 +1,4 @@
-//Copyright (C) 2026 by Theron Kauk and John Morris Beck <hd.configure.direct@gmail.com> THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIE WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILIT AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+//Copyright (C) 2026 by Theron Kauk and John Morris Beck <HD.Configure.direct@gmail.com> THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIE WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILIT AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 import path from 'path';
 import os from 'os';
 import { pathToFileURL } from 'url';
@@ -43,7 +43,7 @@ import { pathToFileURL } from 'url';
 	hdui.subheader("Advertise On A Truck") +
 	    hdui.image("/assets/truckday.png") +
 	    hdui.subheader("1-(401)-400-2279") +
-	    hdui.subheader("hd.configure.direct@gmail.com") +
+	    hdui.subheader("HD.Configure.Direct@gmail.com") +
 	    hdui.text(
 		"Put your advertisement on a moving truck across america, or register your truck for adspace and get paid. Why would you pay for an advertisement in just one place that doesnt move? Why would you drive truck and waste extra money you could be making?") +
 	    hdui.image("/assets/truckback.jpg") +
