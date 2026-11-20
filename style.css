@@ -309,19 +309,25 @@ h2.subheader-title {
 
 
 /* ==========================================================================
-   Iframe / Embedded Form Styling
+   Embedded Form Styling (Transparent / No Wrapper Box)
    ========================================================================== */
-.table-wrapper:has(iframe) {
-  width: 100%;
-}
-
-.table-wrapper iframe {
+.embedded-form {
+  display: block;
   width: 100%;
   max-width: 100%;
-  display: block;
+  height: 2000px;
   border: none;
-  border-radius: var(--radius-sm);
-  height: 2000px; /* Ensure ample height so the full form renders */
+  background: transparent;
+  margin-bottom: 0.75rem;
+}
+
+@media (orientation: landscape) {
+  .embedded-form {
+    width: 100%;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ==========================================================================
