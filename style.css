@@ -308,6 +308,18 @@ h2.subheader-title {
 }
 
 /* ==========================================================================
+   Iframe / Embedded Form Styling
+   ========================================================================== */
+.table-wrapper iframe {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  border: none;
+  border-radius: var(--radius-sm);
+}
+
+
+/* ==========================================================================
    Standalone Button Styles
    ========================================================================== */
 a.table-btn,
@@ -360,8 +372,10 @@ a.table-btn:active {
 /* ==========================================================================
    Responsive Sizing for Landscape / Desktop Screens
    ========================================================================== */
+
 @media (orientation: landscape) {
   .table-wrapper:has(.image-cell-flush),
+  .table-wrapper:has(iframe),
   .subheader-wrapper,
   .info-block {
     width: 100%;
@@ -370,7 +384,6 @@ a.table-btn:active {
     margin-right: auto;
   }
 }
-
 /* ==========================================================================
    Footer / License Alignment & Divider Bar
    ========================================================================== */
