@@ -307,6 +307,7 @@ h2.subheader-title {
   border-radius: var(--radius-sm);
 }
 
+
 /* ==========================================================================
    Iframe / Embedded Form Styling
    ========================================================================== */
@@ -320,6 +321,8 @@ h2.subheader-title {
   display: block;
   border: none;
   border-radius: var(--radius-sm);
+  /* Let the height attribute in HTML control the sizing so it expands naturally */
+  height: auto; 
 }
 
 /* ==========================================================================
