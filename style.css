@@ -321,8 +321,7 @@ h2.subheader-title {
   display: block;
   border: none;
   border-radius: var(--radius-sm);
-  /* Let the height attribute in HTML control the sizing so it expands naturally */
-  height: auto; 
+  height: 2000px; /* Ensure ample height so the full form renders */
 }
 
 /* ==========================================================================
