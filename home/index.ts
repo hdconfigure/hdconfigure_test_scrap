@@ -40,7 +40,7 @@ import { pathToFileURL } from 'url';
 
 
 
-	hdui.subheader("Advertise On A Truck") +
+	hdui.subheader("Advertise On A Truck.") +
 	    hdui.image("/assets/truckday.png") +
 	    hdui.subheader("1-(401)-400-2279") +
 	    hdui.subheader("hd.configure.direct@gmail.com") +
