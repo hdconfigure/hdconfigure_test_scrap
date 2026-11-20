@@ -310,6 +310,10 @@ h2.subheader-title {
 /* ==========================================================================
    Iframe / Embedded Form Styling
    ========================================================================== */
+.table-wrapper:has(iframe) {
+  width: 100%;
+}
+
 .table-wrapper iframe {
   width: 100%;
   max-width: 100%;
@@ -317,7 +321,6 @@ h2.subheader-title {
   border: none;
   border-radius: var(--radius-sm);
 }
-
 
 /* ==========================================================================
    Standalone Button Styles
